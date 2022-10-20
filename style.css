@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edf2f8;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 1440px;
+  display: grid;
+  grid-template-columns: 250px 300px 300px 200px;
+  grid-template-rows: 300px;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.box-1 {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: 1 / 3;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  color: hsl(210, 46%, 95%);
+}
+
+svg {
+  position: absolute;
+  float: right;
+  right: 60px;
+  top: 1px;
+  opacity: 0.4;
+}
+
+.box-1 img {
+  position: absolute;
+  float: left;
+  border-radius: 100px;
+  left: 160px;
+  top: 10px;
+}
+
+.box-2 {
+  background-color: hsl(217, 19%, 35%);
+  text-align: center;
+  border-radius: 10px;
+  color: hsl(210, 46%, 95%);
+  position: relative;
+}
+
+.box-2 img {
+  position: absolute;
+  float: left;
+  border-radius: 100px;
+  left: 15px;
+  top: 10px;
+}
+
+.box-3 {
+  background-color: white;
+  grid-column: 1 / 2;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.box-3 img {
+  position: absolute;
+  float: left;
+  border-radius: 100px;
+  left: 5px;
+  top: 10px;
+}
+
+.box-4 {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  color: hsl(210, 46%, 95%);
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.box-4 img {
+  position: absolute;
+  float: left;
+  border-radius: 100px;
+  left: 175px;
+  top: 10px;
+}
+
+.box-5 {
+  background-color: white;
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+  text-align: center;
+  border-radius: 10px;
+  align-self: stretch;
+  position: relative;
+}
+
+.box-5 img {
+  position: absolute;
+  float: left;
+  border-radius: 100px;
+  left: 4px;
+  top: 10px;
+}
+
+.author {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-size: 25px;
+}
+
+.author-description {
+  color: hsla(210, 46%, 95%, 0.503);
+  font-weight: 300;
+}
+
+.author-info {
+  margin-bottom: 10px;
+}
+
+.job-offer {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.testimonial {
+  color: hsla(210, 46%, 95%, 0.7);
+  font-weight: 300;
+}
+
+.box-3 .author-description {
+  color: hsl(217, 19%, 35%);
+}
+
+.box-3 .testimonial {
+  color: hsla(217, 19%, 35%, 0.705);
+}
+
+.box-5 .author-description {
+  color: hsl(217, 19%, 35%);
+}
+
+.box-5 .testimonial {
+  color: hsl(217, 19%, 35%);
+}
+
+footer {
+  margin-top: 10px;
+}
